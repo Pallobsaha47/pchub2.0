@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ultimate PC Hub Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ultimate PC Hub Dashboard</h1>
+    </header>
+
+    <section id="system-stats">
+        <h2>System Overview</h2>
+        <div id="cpu-graph">CPU Graph Placeholder</div>
+        <div id="ram-graph">RAM Graph Placeholder</div>
+        <div id="disk-graph">Disk Graph Placeholder</div>
+    </section>
+
+    <section id="processes">
+        <h2>Top Processes</h2>
+        <table id="process-table">
+            <thead>
+                <tr>
+                    <th>PID</th>
+                    <th>Name</th>
+                    <th>CPU %</th>
+                    <th>RAM %</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Filled dynamically by dashboard.js -->
+            </tbody>
+        </table>
+    </section>
+
+    <section id="network">
+        <h2>Network Info</h2>
+        <div id="network-details">Network info placeholder</div>
+    </section>
+
+    <section id="hardware">
+        <h2>Hardware Sensors</h2>
+        <div id="cpu-temp">CPU Temp Placeholder</div>
+        <div id="gpu-temp">GPU Temp Placeholder</div>
+        <div id="fan-speed">Fan Speed Placeholder</div>
+        <div id="power-usage">Power Usage Placeholder</div>
+    </section>
+
+    <section id="file-monitor">
+        <h2>File Monitor</h2>
+        <table id="file-table">
+            <thead>
+                <tr>
+                    <th>Timestamp</th>
+                    <th>Event</th>
+                    <th>Path</th>
+                    <th>SHA-256</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Filled dynamically by dashboard.js -->
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <p>Ultimate PC Hub &copy; 2025</p>
+    </footer>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>

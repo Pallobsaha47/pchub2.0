@@ -1,0 +1,83 @@
+/* styles.css */
+
+/* Basic body styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Headings */
+h1, h2 {
+    color: #00ff99;
+    margin-bottom: 10px;
+}
+
+/* Section containers */
+.section {
+    background-color: #2b2b2b;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #000;
+}
+
+/* Graph placeholders */
+.graph {
+    height: 50px;
+    background-color: #111;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    border: 1px solid #444;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #333;
+    color: #00ff99;
+}
+
+table tr:nth-child(even) {
+    background-color: #2a2a2a;
+}
+
+/* File event table */
+#file-table th, #file-table td {
+    font-size: 0.9em;
+}
+
+/* Network and hardware divs */
+#network-details, #cpu-temp, #gpu-temp, #fan-speed, #power-usage {
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+/* Buttons (future use) */
+button {
+    background-color: #00ff99;
+    color: #1e1e1e;
+    border: none;
+    padding: 8px 15px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #00cc77;
+}

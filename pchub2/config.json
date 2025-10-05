@@ -1,0 +1,16 @@
+{
+    "monitor_folders": [
+        "C:/Users/pallo/Desktop",
+        "C:/Users/pallo/Downloads"
+    ],
+    "snapshot_interval": 2,
+    "enable_hardware_sensors": true,
+    "enable_file_monitoring": true,
+    "enable_network_monitoring": true,
+    "max_graph_points": 50,
+    "quarantine_folder": "C:/Users/pallo/Desktop/pchub2/quarantine",
+    "log_file": "C:/Users/pallo/Desktop/pchub2/logs/file_events.log",
+    "cpu_alert_threshold": 90,
+    "ram_alert_threshold": 90,
+    "disk_alert_threshold": 90
+}
